@@ -1,3 +1,111 @@
 body{
-    background-color: rgba(236, 234, 234, 0.795);
+    background-color: rgba(233, 232, 232, 0.593);
+}
+.text{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 15%;
+    margin-top: 0%;
+}
+.imagen{
+    background-color: ;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -16%;
+    margin-top: 11%;
+}
+.login{
+    background-color: #ffffff;
+    width: 380px ;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid rgb(236, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    left: 55% ;
+    margin-top: -17%;
+}
+.inputuno{
+    border:1px solid rgb(196, 194, 194) ;
+    border-radius: 5px;
+    /*outline: none; */
+    width: 89%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -68%;
+    margin-right: -49%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+}
+.inputdos{
+    border:1px solid rgb(196, 194, 194) ;
+    border-radius: 5px;
+    /*outline: none; */
+    width: 150%;
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:-50% ;
+    margin-right:-49% ;
+
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+}
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:11px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #1570cd;
+}
+.myButton:hover {
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButtton {
+	box-shadow:inset 1px 8px 50px -50px #a3e668;
+	background-color:#89c403;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:17px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #528009;
+}
+.myButtton:hover {
+	background-color:#77a809;
+}
+.myButtton:active {
+	position:relative;
+	top:1px;
 }
